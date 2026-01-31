@@ -5,17 +5,17 @@ version = "scm-1"
 rockspec_format = "3.0"
 
 source = {
-  url = "git://github.com/nvim-neorg/tree-sitter-norg",
+  url = "git://github.com/OctoJuggler/tree-sitter-norg",
 }
 
 description = {
   summary = "tree-sitter parser for norg",
-  homepage = "https://github.com/nvim-neorg/tree-sitter-norg",
+  homepage = "https://github.com/OctoJuggler/tree-sitter-norg",
   license = "MIT"
 }
 
 dependencies = {
-  "lua >= 5.1",
+  "lua >= 5.4",
 }
 
 build_dependencies = {
